@@ -1,5 +1,5 @@
 import { initializeApp, getApps } from "firebase/app"
-import { getFirestore, collection, collectionGroup, where, getDocs, getDoc, onSnapshot, addDoc, deleteDoc, updateDoc, doc, enableIndexedDbPersistence, orderBy, query, limit, serverTimestamp, arrayUnion, arrayRemove } from "firebase/firestore"
+import { getFirestore, collection, collectionGroup, where, getDocs, getDoc, onSnapshot, addDoc, deleteDoc, updateDoc, doc, orderBy, query, limit, serverTimestamp, arrayUnion, arrayRemove } from "firebase/firestore"
 import { getAuth, updateProfile, onAuthStateChanged, signOut, GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, getIdTokenResult } from "firebase/auth"
 import { getAnalytics, isSupported } from "firebase/analytics";
 
